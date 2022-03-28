@@ -1,6 +1,8 @@
 {
-  "name": "mfe-demo-root",
-  "private": true,
+  "name": "mfe-webpack-demo",
+  "version": "1.0.0",
+  "description": "mfe wp5 mod fed",
+  "main": "index.js",
   "scripts": {
     "build": "yarn workspaces run build",
     "serve": "wsrun --parallel serve",
@@ -13,4 +15,17 @@
     "concurrently": "^5.1.0",
     "wsrun": "^5.2.0"
   }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camilocsotm/mfe-webpack-demo.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "nn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camilocsotm/mfe-webpack-demo/issues"
+  },
+  "homepage": "https://github.com/camilocsotm/mfe-webpack-demo#readme"
 }
